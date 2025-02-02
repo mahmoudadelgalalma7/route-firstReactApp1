@@ -39,6 +39,7 @@
     color:#FFF;
     opacity: 0;
     transition: all .5s ease-in-out;
+    cursor: pointer;
 }
 #portfolio .row .primaryImageBox {
     z-index: 1030;
