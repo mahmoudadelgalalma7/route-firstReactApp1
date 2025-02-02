@@ -37,61 +37,49 @@ export default function Portfolio() {
                             <div className="col-12 col-md-6 col-lg-4">
                                 <div className="item position-relative" onClick={()=> {isClicked(image1)} }>
                                     <img src={image1} alt="image1" className='w-100 h-100 rounded-3' />
-                                    <a href="#">
-                                        <div className="layout rounded-3 w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
-                                            <i className='fa-solid fa-plus fa-6x'></i>
-                                        </div>
-                                    </a>
+                                    <div className="layout rounded-3 w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
+                                        <i className='fa-solid fa-plus fa-6x'></i>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-4">
                                 <div className="item position-relative" onClick={()=> {isClicked(image2)} }>
                                     <img src={image2} alt="image1" className='w-100 h-100 rounded-3' />
-                                    <a href="#">
                                         <div className="layout rounded-3 w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
                                             <i className='fa-solid fa-plus fa-6x'></i>
                                         </div>
-                                    </a>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-4">
                                 <div className="item position-relative" onClick={()=> {isClicked(image1)} }>
                                     <img src={image1} alt="image1" className='w-100 h-100 rounded-3' />
-                                    <a href="#">
                                         <div className="layout rounded-3 w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
                                             <i className='fa-solid fa-plus fa-6x'></i>
                                         </div>
-                                    </a>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-4">
                                 <div className="item position-relative" onClick={()=> {isClicked(image1)} }>
                                     <img src={image1} alt="image1" className='w-100 h-100 rounded-3' />
-                                    <a href="#">
                                         <div className="layout rounded-3 w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
                                             <i className='fa-solid fa-plus fa-6x'></i>
                                         </div>
-                                    </a>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-4">
                                 <div className="item position-relative" onClick={()=> {isClicked(image1)} }>
                                     <img src={image1} alt="image1" className='w-100 h-100 rounded-3' />
-                                    <a href="#">
                                         <div className="layout rounded-3 w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
                                             <i className='fa-solid fa-plus fa-6x'></i>
                                         </div>
-                                    </a>
                                 </div>
                             </div>
                             <div className="col-12 col-md-6 col-lg-4">
                                 <div className="item position-relative" onClick={()=> {isClicked(image2)} }>
                                     <img src={image2} alt="image1" className='w-100 h-100 rounded-3' />
-                                    <a href="#">
                                         <div className="layout rounded-3 w-100 h-100 position-absolute top-0 start-0 d-flex justify-content-center align-items-center">
                                             <i className='fa-solid fa-plus fa-6x'></i>
                                         </div>
-                                    </a>
                                 </div>
                             </div>
 
