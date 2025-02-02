@@ -1,0 +1,67 @@
+#contact {
+    padding-block:5rem ;
+    min-height:90vh;
+}
+
+#contact .space {
+    height: 5px;
+    width:200px;
+}
+#contact .space .star {
+    position: relative;
+    font-size: 15px;
+    background-color: #FFF;
+    padding:10px;
+    width: fit-content;
+    border-radius: 50%;
+    left:calc(50% - 20px);
+    top:-20px;
+}
+#contact .h1 {
+    font-weight: 700;
+}
+#contact .space .star,
+#contact .h1 {
+    color:#2c3e50;
+}
+#contact .space{
+    background-color: #2c3e50;
+}
+#contact form label{
+    color:var(--mainColor);
+    transition:all .5s ease-in-out;
+    position: relative;
+    &.hidden{
+        top:50%;
+
+    }
+    &.visible{
+        top:0;
+    }
+}
+#contact form input{
+    border-width:0px 0px 1px 0px;
+    padding:15px 10px;
+    &:focus{
+        border-color:var(--bs-border-color);
+        box-shadow: none;
+    }
+}
+
+
+@media( min-width:768px){
+    #contact form{
+        max-width: 60%;
+    }
+}
+
+#contact form button {
+    --bs-btn-bg:var(--mainColor);
+    --bs-btn-border-color:var(--mainColor);
+    --bs-btn-hover-bg:#128971;
+    --bs-btn-hover-border-color:var(--mainColor);
+    --bs-btn-active-bg:#128971;
+    --bs-btn-active-border-color:var(--mainColor);
+    --bs-btn-disabled-bg:var(--mainColor);
+    --bs-btn-disabled-border-color:var(--mainColor);
+}

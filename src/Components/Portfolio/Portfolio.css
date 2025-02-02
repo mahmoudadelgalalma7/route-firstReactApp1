@@ -1,0 +1,50 @@
+#portfolio {
+    padding-block:5rem ;
+    min-height:90vh;
+}
+
+#portfolio .space {
+    height: 5px;
+    width:200px;
+}
+
+#portfolio .space .star {
+    position: relative;
+    font-size: 15px;
+    background-color: #FFF;
+    padding:10px;
+    width: fit-content;
+    border-radius: 50%;
+    left:calc(50% - 20px);
+    top:-20px;
+}
+
+#portfolio .h1 {
+    font-weight: 700;
+}
+#portfolio .space .star,
+#portfolio .h1 {
+    color:#2c3e50;
+}
+#portfolio .space{
+    background-color: #2c3e50;
+}
+#portfolio .row .item:hover .layout {
+    opacity: 1;
+    
+}
+
+#portfolio .row .item .layout {
+    background-color:#1abc9cd5;
+    color:#FFF;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+#portfolio .row .primaryImageBox {
+    z-index: 1030;
+    --bs-bg-opacity:0.2;
+}
+#portfolio .row .primaryImage {
+    z-index: 1031;
+    max-width: 600px;
+}

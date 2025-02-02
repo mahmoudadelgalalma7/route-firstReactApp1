@@ -1,0 +1,14 @@
+
+/* Footer */
+footer{
+    background-color:var(--secondColor);
+  }
+  footer .col-12.col-sm-4 h5 {
+    font-size: 28px;
+    font-weight: 500;
+    
+  }
+  
+  .copyright{
+    background-color: #1a252f;
+  }
